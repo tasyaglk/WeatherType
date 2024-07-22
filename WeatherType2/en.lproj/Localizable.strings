@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  WeatherType2
+
+  Created by Тася Галкина on 22.07.2024.
+  
+*/
+
+"Clear" = "Clear";
+"Rain" = "Rain";
+"Cloudy" = "Cloudy";
+"Thunderstorm" = "Thunderstorm";
+"Fog" = "Fog";
+"Snow" = "Snow";

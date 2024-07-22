@@ -13,6 +13,16 @@
 		00DBE5DD2C4EEE1500408BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DBE5DB2C4EEE1500408BB3 /* Main.storyboard */; };
 		00DBE5DF2C4EEE1600408BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DBE5DE2C4EEE1600408BB3 /* Assets.xcassets */; };
 		00DBE5E22C4EEE1600408BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DBE5E02C4EEE1600408BB3 /* LaunchScreen.storyboard */; };
+		00DBE5EC2C4EEE3C00408BB3 /* WeatherTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE5EB2C4EEE3C00408BB3 /* WeatherTypeViewController.swift */; };
+		00DBE5EE2C4EEE9B00408BB3 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE5ED2C4EEE9B00408BB3 /* WeatherCell.swift */; };
+		00DBE5F02C4EEEAF00408BB3 /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE5EF2C4EEEAF00408BB3 /* WeatherCondition.swift */; };
+		00DBE5F32C4EEEED00408BB3 /* ClearWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE5F22C4EEEED00408BB3 /* ClearWeatherView.swift */; };
+		00DBE5F52C4EEEFB00408BB3 /* RainWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE5F42C4EEEFB00408BB3 /* RainWeatherView.swift */; };
+		00DBE5F72C4EEF2F00408BB3 /* CloudyWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE5F62C4EEF2F00408BB3 /* CloudyWeatherView.swift */; };
+		00DBE5F92C4EEF4400408BB3 /* ThunderstormWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE5F82C4EEF4400408BB3 /* ThunderstormWeatherView.swift */; };
+		00DBE5FB2C4EEF5A00408BB3 /* SnowfallWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE5FA2C4EEF5A00408BB3 /* SnowfallWeatherView.swift */; };
+		00DBE5FE2C4EEF6F00408BB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00DBE6002C4EEF6F00408BB3 /* Localizable.strings */; };
+		00DBE6052C4EEFAD00408BB3 /* FogWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBE6042C4EEFAD00408BB3 /* FogWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,19 @@
 		00DBE5DE2C4EEE1600408BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00DBE5E12C4EEE1600408BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00DBE5E32C4EEE1600408BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DBE5EB2C4EEE3C00408BB3 /* WeatherTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTypeViewController.swift; sourceTree = "<group>"; };
+		00DBE5ED2C4EEE9B00408BB3 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		00DBE5EF2C4EEEAF00408BB3 /* WeatherCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCondition.swift; sourceTree = "<group>"; };
+		00DBE5F22C4EEEED00408BB3 /* ClearWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearWeatherView.swift; sourceTree = "<group>"; };
+		00DBE5F42C4EEEFB00408BB3 /* RainWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainWeatherView.swift; sourceTree = "<group>"; };
+		00DBE5F62C4EEF2F00408BB3 /* CloudyWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyWeatherView.swift; sourceTree = "<group>"; };
+		00DBE5F82C4EEF4400408BB3 /* ThunderstormWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderstormWeatherView.swift; sourceTree = "<group>"; };
+		00DBE5FA2C4EEF5A00408BB3 /* SnowfallWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowfallWeatherView.swift; sourceTree = "<group>"; };
+		00DBE5FF2C4EEF6F00408BB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		00DBE6012C4EEF7E00408BB3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		00DBE6022C4EEF7E00408BB3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		00DBE6032C4EEF7E00408BB3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		00DBE6042C4EEFAD00408BB3 /* FogWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 		00DBE5D42C4EEE1500408BB3 /* WeatherType2 */ = {
 			isa = PBXGroup;
 			children = (
+				00DBE5F12C4EEEE000408BB3 /* Types */,
 				00DBE5D52C4EEE1500408BB3 /* AppDelegate.swift */,
 				00DBE5D72C4EEE1500408BB3 /* SceneDelegate.swift */,
 				00DBE5D92C4EEE1500408BB3 /* ViewController.swift */,
@@ -63,8 +87,25 @@
 				00DBE5DE2C4EEE1600408BB3 /* Assets.xcassets */,
 				00DBE5E02C4EEE1600408BB3 /* LaunchScreen.storyboard */,
 				00DBE5E32C4EEE1600408BB3 /* Info.plist */,
+				00DBE5EB2C4EEE3C00408BB3 /* WeatherTypeViewController.swift */,
+				00DBE5ED2C4EEE9B00408BB3 /* WeatherCell.swift */,
+				00DBE5EF2C4EEEAF00408BB3 /* WeatherCondition.swift */,
+				00DBE6002C4EEF6F00408BB3 /* Localizable.strings */,
 			);
 			path = WeatherType2;
+			sourceTree = "<group>";
+		};
+		00DBE5F12C4EEEE000408BB3 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				00DBE5F22C4EEEED00408BB3 /* ClearWeatherView.swift */,
+				00DBE5F42C4EEEFB00408BB3 /* RainWeatherView.swift */,
+				00DBE5F62C4EEF2F00408BB3 /* CloudyWeatherView.swift */,
+				00DBE5F82C4EEF4400408BB3 /* ThunderstormWeatherView.swift */,
+				00DBE5FA2C4EEF5A00408BB3 /* SnowfallWeatherView.swift */,
+				00DBE6042C4EEFAD00408BB3 /* FogWeatherView.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +150,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 00DBE5C92C4EEE1500408BB3;
 			productRefGroup = 00DBE5D32C4EEE1500408BB3 /* Products */;
@@ -126,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00DBE5E22C4EEE1600408BB3 /* LaunchScreen.storyboard in Resources */,
+				00DBE5FE2C4EEF6F00408BB3 /* Localizable.strings in Resources */,
 				00DBE5DF2C4EEE1600408BB3 /* Assets.xcassets in Resources */,
 				00DBE5DD2C4EEE1500408BB3 /* Main.storyboard in Resources */,
 			);
@@ -140,7 +183,16 @@
 			files = (
 				00DBE5DA2C4EEE1500408BB3 /* ViewController.swift in Sources */,
 				00DBE5D62C4EEE1500408BB3 /* AppDelegate.swift in Sources */,
+				00DBE5EE2C4EEE9B00408BB3 /* WeatherCell.swift in Sources */,
+				00DBE5F32C4EEEED00408BB3 /* ClearWeatherView.swift in Sources */,
 				00DBE5D82C4EEE1500408BB3 /* SceneDelegate.swift in Sources */,
+				00DBE5F52C4EEEFB00408BB3 /* RainWeatherView.swift in Sources */,
+				00DBE5F92C4EEF4400408BB3 /* ThunderstormWeatherView.swift in Sources */,
+				00DBE5FB2C4EEF5A00408BB3 /* SnowfallWeatherView.swift in Sources */,
+				00DBE5F02C4EEEAF00408BB3 /* WeatherCondition.swift in Sources */,
+				00DBE5F72C4EEF2F00408BB3 /* CloudyWeatherView.swift in Sources */,
+				00DBE6052C4EEFAD00408BB3 /* FogWeatherView.swift in Sources */,
+				00DBE5EC2C4EEE3C00408BB3 /* WeatherTypeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +203,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				00DBE5DC2C4EEE1500408BB3 /* Base */,
+				00DBE6012C4EEF7E00408BB3 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +212,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				00DBE5E12C4EEE1600408BB3 /* Base */,
+				00DBE6022C4EEF7E00408BB3 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		00DBE6002C4EEF6F00408BB3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DBE5FF2C4EEF6F00408BB3 /* en */,
+				00DBE6032C4EEF7E00408BB3 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -171,6 +234,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -234,6 +298,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
